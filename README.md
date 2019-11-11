@@ -1,5 +1,12 @@
 ![WATCHER-LOGO](https://user-images.githubusercontent.com/23449337/68150609-62acea80-ff40-11e9-9b2c-ab79f34eba11.png)
 
+## Description
+
+Watcher is a skill that allows you to manage your movies using playlists. You can request a film of your choice or find out what you have watched recently.
+
+This project is realized within the framework of a Web Intelligence course by Martin **Cayuelas**, Nicolas **Guary**, Nathan **Guillaud**, Théo **Ponthieu**.
+
+
 ## Features
 
 
