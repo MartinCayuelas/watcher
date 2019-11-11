@@ -1,0 +1,33 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "YOUR_ID_SKILL",
+      "was_cloned": false,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "bb8beabb2c0be611e96fe6400a9c96b3"
+        },
+        "interactionModel": {
+          "fr-FR": {
+            "eTag": "42b8c5f6a17e53b6fd0758b2006d6a0f"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "YOUR_ARN_LAMBDA",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-Watcher-default",
+            "handler": "index.handler",
+            "revisionId": "1db17405-f8c5-4a7c-8be8-853d5575618e",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "watcher ouvre toi",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "Merci Alexa",
+            "A plus tard merci",
+            "Merci à plus tard",
+            "Merci",
+            "Merci à bientôt",
+            "A bientôt merci",
+            "Stop"
+          ]
+        },
+        {
+          "name": "StatsProfilIntent",
+          "slots": [],
+          "samples": [
+            "profil",
+            "mon profil",
+            "donne moi quelques statistiques sur mon profil",
+            "statistiques du profil",
+            "Donne moi mes statistiques",
+            "Quelles sont mes statistiques ",
+            "Donne moi mon profil",
+            "Statistiques",
+            "combien de films ai-je vu ",
+            "quel est mon total de films vus ",
+            "Quelles sont les statistiques de mon profil ",
+            "donne moi mes stats",
+            "Mes stats",
+            "Stats",
+            "Quelles sont mes stats",
+            "Mes statistiques"
+          ]
+        },
+        {
+          "name": "AddListToSeeIntent",
+          "slots": [
+            {
+              "name": "film",
+              "type": "AMAZON.Movie"
+            }
+          ],
+          "samples": [
+            "ajoute {film} à ma liste",
+            "ajoute {film}",
+            "ajouter {film}",
+            "ajouter {film} à ma liste",
+            "ajouter à la liste de visionnage",
+            "ajouter",
+            "ajouter à ma liste de films en attente",
+            "mettre dans ma liste",
+            "ajouter à ma liste de films",
+            "l'ajouter",
+            "l'ajouter à ma liste",
+            "ajoute le à ma liste",
+            "ajoute le film à ma liste",
+            "ajoute ce film à ma liste",
+            "l'ajouter à ma liste de visionnage",
+            "met-le dans ma liste",
+            "ajoute le",
+            "j'ai vu {film}",
+            "j'ai regardé {film}",
+            "Met le dans ma liste",
+            "Met {film} dans ma liste"
+          ]
+        },
+        {
+          "name": "RandomMovieIntent",
+          "slots": [],
+          "samples": [
+            "un film",
+            "trouve un film",
+            "trouve moi un film",
+            "donne moi un film",
+            "un film que tu veux",
+            "le film que tu veux",
+            "donne moi un autre film",
+            "donne moi un autre",
+            "affiche moi un autre",
+            "affiche un autre film",
+            "changer de film",
+            "changer le film",
+            "trouve moi un autre film",
+            "trouve un autre film",
+            "cherche un autre film",
+            "Quel film puis-je voir ",
+            "Quel film puis-je regarder ",
+            "Quel film je peux voir ",
+            "Quel film je peux regarder ",
+            "Donne moi un film à voir",
+            "Donne moi un film à regarder",
+            "Donne moi un film au hasard",
+            "Film au hasard",
+            "Que regarder ce soir ",
+            "Conseille moi un film",
+            "Qu'est ce que je peux regarder ",
+            "Qu'est ce que je peux voir ",
+            "Quels films me proposes-tu ",
+            "Donne moi un film à regarder",
+            "Quel film me conseilles tu ",
+            "Trouve moi un film a regarder",
+            "Je n'ai pas d'idee donne moi un film",
+            "Propose moi un film",
+            "Suggere moi un film",
+            "Donne moi une idee de film",
+            "Donne moi une idee de film a regarder",
+            "Je ne sais pas quoi regarder",
+            "Qu'est ce que je peux regarder ce soir ",
+            "Qu'est ce que je peux voir ce soir ",
+            "Donne des idees de film à voir",
+            "Donne des idees de film à regarder"
+          ]
+        },
+        {
+          "name": "GetPopularMoviesIntent",
+          "slots": [],
+          "samples": [
+            "quels sont les films populaires",
+            "quels sont les films du moment",
+            "donne moi les films du moment",
+            "Films du moment",
+            "Films populaires",
+            "Quels sont les films en ce moment ",
+            "Donne moi les films populaires",
+            "qui y a t il au cinéma en ce moment ",
+            "Donne moi un nouveau film",
+            "Donne moi un film recent"
+          ]
+        },
+        {
+          "name": "GetInfosMovieIntent",
+          "slots": [
+            {
+              "name": "film",
+              "type": "AMAZON.Movie"
+            }
+          ],
+          "samples": [
+            "synopsis du film {film}",
+            "informations du film {film}",
+            "synopsis de {film}",
+            "informations sur {film}",
+            "donne moi des infos sur ce film",
+            "informations sur ce film",
+            "informations du film",
+            "informations",
+            "synopsis du film",
+            "quel est le resume du film",
+            "la synopsis",
+            "synopsis",
+            "Ecouter la synopsis",
+            "Résumé",
+            "Fait moi un résumé",
+            "De quoi parle le film",
+            "Résumé du film",
+            "Résumé du film {film}",
+            "qu'est ce que {film}",
+            "de quoi parle {film}",
+            "Explique moi {film}"
+          ]
+        },
+        {
+          "name": "WatchMovieIntent",
+          "slots": [
+            {
+              "name": "film",
+              "type": "AMAZON.Movie"
+            }
+          ],
+          "samples": [
+            "voir {film}",
+            "regarder {film}",
+            "oui regarder",
+            "regarder",
+            "le regarder",
+            "regarder le film",
+            "regarder ce film",
+            "le voir",
+            "je veux regarder {film}",
+            "j'ai vu {film}",
+            "j'ai regardé {film}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "MoviesSeenIntent",
+          "slots": [
+            {
+              "name": "nombreFilms",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "positionFilm",
+              "type": "positionFilm"
+            }
+          ],
+          "samples": [
+            "affiche le {positionFilm} film vu",
+            "affiche moi le {positionFilm} film que j'ai vu",
+            "donne moi {positionFilm} les films que j'ai vu",
+            "quel est le {positionFilm} film que j'ai vu",
+            "quels sont les {nombreFilms} derniers films que j'ai vu",
+            "affiche moi {nombreFilms} films que j'ai vu",
+            "affiche {nombreFilms} films que j'ai vu",
+            "affiche les {nombreFilms} derniers films que j'ai vu",
+            "donne moi {nombreFilms} films que j'ai vu",
+            "quel est le {positionFilm} film vu",
+            "donne moi {positionFilm} films vus",
+            "donne moi les {nombreFilms} derniers films que j'ai vu",
+            "donne moi les {nombreFilms} derniers vus",
+            "quels sont les {nombreFilms} derniers films que j'ai vu",
+            "quels sont les {nombreFilms} derniers films vus"
+          ]
+        },
+        {
+          "name": "MoviesToSeeIntent",
+          "slots": [
+            {
+              "name": "nombreFilms",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "positionFilm",
+              "type": "positionFilm"
+            }
+          ],
+          "samples": [
+            "affiche le {positionFilm} film de ma liste d'attente",
+            "affiche moi le {positionFilm} film de ma liste",
+            "donne moi {positionFilm} les films en attente",
+            "quel est le {positionFilm} film en attente",
+            "affiche moi {nombreFilms} films que je dois voir",
+            "affiche moi {nombreFilms} films que je dois regarder",
+            "affiche {nombreFilms} films à voir",
+            "affiche les {nombreFilms} derniers films à voir",
+            "affiche les {nombreFilms} derniers films que je dois visionner",
+            "affiche les {nombreFilms} derniers films que je dois voir",
+            "affiche les {nombreFilms} derniers films que je dois regarder",
+            "donne moi {nombreFilms} films à regarder",
+            "donne moi {nombreFilms} films à voir",
+            "combien de films dans ma liste d'attente ",
+            "combien de films dois-je voir "
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "premier"
+              }
+            },
+            {
+              "name": {
+                "value": "dernier"
+              }
+            },
+            {
+              "name": {
+                "value": "tous"
+              }
+            }
+          ],
+          "name": "positionFilm"
+        }
+      ]
+    }
+  },
+  "version": "102"
+}

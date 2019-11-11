@@ -1,0 +1,32 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "fr-FR": {
+          "name": "Watcher",
+          "summary": "Sample Short Description",
+          "description": "Manages your movies for you",
+          "examplePhrases": [
+            "Alexa ouvre watcher",
+            "Bonjour Alexa",
+            "Watcher"
+          ],
+          "keywords": []
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "ask-custom-Watcher-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
